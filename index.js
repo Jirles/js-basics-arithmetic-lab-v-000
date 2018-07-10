@@ -15,4 +15,4 @@ const randomNumber = Math.random() * 20;
 
 const randomInteger = Math.floor(randomNumber);
 
-const randomUserID = Math.ceil(Math.random() * 20) + 1000000000;
+const randomUserID = Math.ceil(randomNumber) + 1000000000;
