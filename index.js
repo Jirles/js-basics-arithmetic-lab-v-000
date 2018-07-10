@@ -13,6 +13,6 @@ const ageIsValid = Number.isInteger(currentAge)
 
 const randomNumber = Math.random() * 20
 
-let randomInteger = Math.floor(randomNumber)
+const randomInteger = Math.floor(randomNumber)
 
-let randomUserID = Math.ceil(Math.random() * 20) + 1000000000
+const randomUserID = Math.ceil(Math.random() * 20) + 1000000000
